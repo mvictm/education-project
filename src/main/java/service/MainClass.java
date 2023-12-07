@@ -9,7 +9,7 @@ public class MainClass {
      * */
     public static void main(String[] args) {
         House woodHouse = new House();
-        woodHouse.setMaterial("дерево");
+        woodHouse.setMaterial("кирпич");
 
         updateMaterial(woodHouse);
 
@@ -17,7 +17,7 @@ public class MainClass {
     }
 
     public static void updateMaterial(House house) {
-        house.setMaterial("кирпич");
+        house.setMaterial("дерево");
         house = new House();
         house.setMaterial("пластик");
     }
