@@ -2,20 +2,20 @@ package lesson_3.oop;
 
 public class Polymorphism {
 
-    static class Car {
+    public static class Car {
         public void drive() {
             System.out.println("поехали");
         }
     }
 
-    static class Lada extends Car {
+    public static class Lada extends Car {
         @Override
         public void drive() {
             System.out.println("ви-ви-ви-ви-ви-ви-пр-пр-пр-пр");;
         }
     }
 
-    static class BMW extends Car {
+    public static class BMW extends Car {
         @Override
         public void drive() {
             System.out.println("врум-врум");
